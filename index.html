@@ -1,43 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Carlos Minutti's Personal Page</title>
+    <title>Carlos Minutti - Researcher &amp; Data Scientist</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Carlos Minutti - Researcher and Data Scientist specializing in AI applied to healthcare. Ph.D. in Computer Science from UNAM.">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-    </style>
+    <link rel="stylesheet" href="files/style.css">
   </head>
-<body class="w3-light-grey">
+<body>
+
+<!-- Language Switcher -->
+<div class="lang-switch">
+  <a href="es/">ES</a><span class="separator">|</span><strong>EN</strong>
+</div>
 
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
   <!-- The Grid -->
   <div class="w3-row-padding">
-  
+
     <!-- Left Column -->
     <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="files/profile.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-white">
+
+      <div class="profile-card">
+        <div class="profile-photo-wrapper">
+          <img src="files/profile.jpg" alt="Carlos Minutti profile photo">
+          <div class="profile-name-overlay">
             <h2>Carlos Minutti</h2>
           </div>
         </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue-grey"></i>Researcher / Data Scientist</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue-grey"></i>cminutti@data-fusionlab.com</p>
-          <p><i class="fa fa-brand fa-google fa-fw w3-margin-right w3-large w3-text-blue-grey"></i><a href="https://scholar.google.com/citations?user=wPweiiEAAAAJ">Google Scholar Page</a></p>
-          <p><i class="fa fa-brand fa-linkedin fa-fw w3-margin-right w3-large w3-text-blue-grey"></i><a href="https://www.linkedin.com/in/carlos-minutti/">LinkedIn Page</a></p>
-          <p><i class="fa fa-brand fa-github fa-fw w3-margin-right w3-large w3-text-blue-grey"></i><a href="https://github.com/cminuttim">GitHub Page</a></p>
-          <p><i class="fa fa-brand fa-github fa-fw w3-margin-right w3-large w3-text-blue-grey"></i><a href="https://data-fusionlab.com">Consulting</a></p>
-          <p><i class="fa fa-brand fa-github fa-fw w3-margin-right w3-large w3-text-blue-grey"></i><a href="https://cminuttim.github.io/PumaMedNet-CXR/">PumaMedNet-CXR</a></p>
-          <p><i class="fa fa-solid fa-user fa-fw w3-margin-right w3-large w3-text-blue-grey"></i><a href='files/cv-minutti.pdf'>CV</a>
+        <div class="profile-info">
+          <p><i class="fa fa-briefcase fa-fw"></i>Researcher / Data Scientist</p>
+          <p><i class="fa fa-envelope fa-fw"></i>cminutti@data-fusionlab.com</p>
+          <p><i class="fa fa-graduation-cap fa-fw"></i><a href="https://scholar.google.com/citations?user=wPweiiEAAAAJ">Google Scholar</a></p>
+          <p><i class="fa fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/carlos-minutti/">LinkedIn</a></p>
+          <p><i class="fa fa-github fa-fw"></i><a href="https://github.com/cminuttim">GitHub</a></p>
+          <p><i class="fa fa-globe fa-fw"></i><a href="https://data-fusionlab.com">Consulting</a></p>
+          <p><i class="fa fa-stethoscope fa-fw"></i><a href="https://cminuttim.github.io/PumaMedNet-CXR/">PumaMedNet-CXR</a></p>
+          <p><i class="fa fa-file-pdf-o fa-fw"></i><a href="files/cv-minutti.pdf">CV</a></p>
         </div>
       </div><br>
 
@@ -46,246 +50,267 @@
 
     <!-- Right Column -->
     <div class="w3-twothird">
-      
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-user-o fa-fw w3-margin-right w3-xxlarge w3-text-blue-grey"></i>Biography</h2>
-        <div class="w3-container">
-          <p>I holds a B.Sc. in Statistics from Chapingo Autonomous University, a M.Sc. in Mathematics, and Ph.D. in Computer Science from the National University of Mexico. I also undertook a research stay at the University of Waterloo, Canada, as part of the Emerging Leaders in the Americas Program.</p>
-          <p></p>I won second place for the best master's thesis in statistics, receiving the national award from the Mexican Association of Statistics, and earning first place in the 22nd Mexican International Conference on Artificial Intelligence for the best paper. Presently, I hold a position as a member of the National System of Researchers.</p>
-		  <p>I have made contributions to the field of data science as a consultant for various companies. My expertise extends to serving as a research associate for the "Consortium of Artificial Intelligence." Furthermore, I have undertaken postdoctoral fellowships at both the National Polytechnic Institute and the National University of Mexico.</p>
+
+      <!-- Biography -->
+      <div class="section-card">
+        <div class="section-header">
+          <i class="fa fa-user-o"></i>
+          <h2>Biography</h2>
+        </div>
+        <div class="section-body">
+          <p>I hold a B.Sc. in Statistics from Chapingo Autonomous University, an M.Sc. in Mathematics, and a Ph.D. in Computer Science from the National University of Mexico. I also undertook a research stay at the University of Waterloo, Canada, as part of the Emerging Leaders in the Americas Program.</p>
+          <p>I won second place for the best master's thesis in statistics, receiving the national award from the Mexican Association of Statistics, and earned first place at the 22nd Mexican International Conference on Artificial Intelligence for the best paper. I currently hold a position as a member of the National System of Researchers.</p>
+          <p>I have made contributions to the field of data science as a consultant for various companies. My expertise extends to serving as a research associate for the "Consortium of Artificial Intelligence." Furthermore, I have undertaken postdoctoral fellowships at both the National Polytechnic Institute and the National University of Mexico.</p>
           <p>My current research focuses on the use of data science and artificial intelligence applied to health.</p>
         </div>
-
-      </div>
-      <br>
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-star-o fa-fw w3-margin-right w3-xxlarge w3-text-blue-grey"></i>Selected Publications</h2>
-        
-        <div class="w3-twothird w3-container">
-          <h5 class="w3-opacity"><b>Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations: A Multifaceted Analysis</b></h5>
-          <h6 class="w3-text-blue-grey"><em>Mathematical and Computational Applications</em></h6>
-          <p>This study investigates the combined effects of air pollution and socioeconomic factors on disease incidence and severity, addressing gaps in prior research that often analyzed these factors separately. Using data from 86,170 hospitalizations in Mexico City (2015–2019), we employed multivariate statistical methods (PCA and factor analysis) to construct composite measures of social and economic status and grouped correlated pollutants. Logistic and negative binomial regression models assessed their associations with hospitalization risk and frequency. Results showed that economic status significantly influenced diabetes complications, while social factors affected prenatal care-related diseases and hypertension. The <span style="white-space: nowrap;">PM<sub>10</sub>–PM<sub>2.5</sub>–CO</span> group increased the incidence of asthma, influenza, and epilepsy, whereas <span style="white-space: nowrap;">NO<sub>2</sub>–NO<sub>x</sub></span> impacted diabetes complication severity and influenza. Nonlinear effects and interactions (e.g., age and weight) were also identified, highlighting the need for integrated analyses in environmental health research.</p>
-          <hr>
-        </div>
-        <div class="w3-third w3-container">
-          <a href="https://www.mdpi.com/2297-8747/30/4/69"><img src="files/diabetes.png" style="width:100%"></a>
-          <p>
-          <a href="https://www.mdpi.com/2297-8747/30/4/69"><img src="files/pca.png" style="width:100%"></a>
-        </div>
-
-	<div class="w3-twothird w3-container">
-          <h5 class="w3-opacity"><b>Enhancing interpretability and bias control in deep learning models for medical image analysis using generative AI</b></h5>
-          <h6 class="w3-text-blue-grey"><em>Proceedings of SPIE</em></h6>
-          <p>Explainability and bias mitigation are crucial aspects of deep learning (DL) models for medical image analysis. Generative AI, particularly autoencoders, can enhance explainability by analyzing the latent space to identify and control variables that contribute to biases. By manipulating the latent space, biases can be mitigated in the classification layer. Furthermore, the latent space can be visualized to provide a more intuitive understanding of the model’s decision-making process. In our work, we demonstrate how the proposed approach enhances the explainability of the decision-making process, surpassing the capabilities of traditional methods like Grad-Cam. Our approach effectively identifies and mitigates biases in a straightforward manner, without necessitating model retraining or dataset modification, showing how Generative AI has the potential to play a pivotal role in addressing explainability and bias mitigation challenges, enhancing the trustworthiness and clinical utility of DL-powered medical image analysis tools.</p>
-          <hr>
-        </div>
-        <div class="w3-third w3-container">
-          <a href="https://doi.org/10.1117/12.3022263"><img src="files/brain_vae_1.png" style="width:100%"></a>
-          <p>
-          <a href="https://doi.org/10.1117/12.3022263"><img src="files/brain_vae_2.png" style="width:100%"></a>
-        </div>
-	
-	<div class="w3-twothird w3-container">
-          <h5 class="w3-opacity"><b>PumaMedNet-CXR: An Explainable Generative Artificial Intelligence for the Analysis and Classification of Chest X-Ray Images</b></h5>
-          <h6 class="w3-text-blue-grey"><em>Lecture Notes in Computer Science</em></h6>
-          <p>In this paper, we introduce PumaMedNet-CXR, a generative AI designed for medical image classification, with a specific emphasis on Chest X-ray (CXR) images. The model effectively corrects common defects in CXR images, offers improved explainability, enabling a deeper understanding of its decision-making process. By analyzing its latent space, we can identify and mitigate biases, ensuring a more reliable and transparent model. Notably, PumaMedNet-CXR achieves comparable performance to larger pre-trained models through transfer learning, making it a promising tool for medical image analysis. The model’s highly efficient autoencoder-based architecture, along with its explainability and bias mitigation capabilities, contribute to its significant potential in advancing medical image understanding and analysis.</p>
-          <hr>
-        </div>
-        <div class="w3-third w3-container">
-          <a href="https://link.springer.com/chapter/10.1007/978-3-031-47640-2_18"><img src="https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-031-47640-2_18/MediaObjects/556477_1_En_18_Fig1_HTML.png" style="width:100%"></a>
-          <p>
-          <a href="https://link.springer.com/chapter/10.1007/978-3-031-47640-2_18"><img src="https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-031-47640-2_18/MediaObjects/556477_1_En_18_Fig6_HTML.png" style="width:100%"></a>
-        </div>
-
-        <div class="w3-twothird w3-container">
-          <h5 class="w3-opacity"><b>Exploring nonlinear effects of air pollution on hospital admissions by disease using gradient boosting machines</b></h5>
-          <h6 class="w3-text-blue-grey"><em>IEEE</em> </h6>
-          <p>Air pollution has been linked to premature mortality and reduced life expectancy, with acute and chronic effects on human health. These effects can be difficult to measure because of possible interactions and nonlinear relationships with other variables such as age, weight, sex, and socioeconomic status.Multi-dimensional relationships are difficult to model using conventional statistical methods. However, modern machine learning techniques have been quite successful in this domain.In this study, gradient boosting regression trees are used to predict the severity/mortality of the leading causes of hospitalization in Mexico City for 91,964 patients during the years 2015-2020 to measure the impact due to different air pollutants. The results show multiple nonlinear relationships and a significant effect of air pollutants on some of the most prevalent diseases.</p>
-          <hr>
-        </div>
-        <div class="w3-third w3-container">
-          <a href="https://doi.org/10.1109/CCE56709.2022.9976027"><img src="files/minut4-p6-minut-large.gif" style="width:100%"></a>
-          <p>
-          <a href="https://doi.org/10.1109/CCE56709.2022.9976027"><img src="files/minut5-p6-minut-large.gif" style="width:100%"></a>
-        </div>
-
-        <div class="w3-twothird w3-container">
-          <h5 class="w3-opacity"><b>A Hybrid Model for the Prediction of Air Pollutants Concentration, Based on Statistical and Machine Learning Techniques</b></h5>
-          <h6 class="w3-text-blue-grey"><em>Lecture Notes in Computer Science</em> </h6>
-          <p>In large cities, the health of the inhabitants and the concentrations of particles smaller than 10 and 2.5 μm as well as ozone are related, making their prediction useful for the government and citizens. Mexico City has an air quality forecast system, which presents a forecast by pollutant at hourly and geographic zone level, but is only valid for the next 24 h.</p>
-          <p>To generate predictions for a longer time period, sophisticated methods need to be used, but highly automated techniques, such as deep learning, require a large amount of data, which are not available for this problem. Therefore, a set of predictor variables is created to feed and test different Machine Learning (ML) methods, and determine which features of these methods are essential for the prediction of different pollutant concentrations, to develop a hybrid ad-hoc model that includes ML features, but allowing a level of explainability, unlike what would occur with methods such as neural networks.</p>
-          <p>In this work we present a hybrid prediction model using different statistical methods and ML techniques, which allow estimating the concentration of the three main pollutants in the air of Mexico City two weeks ahead. The results of the different models are presented and compared, with the hybrid model being the one that best predicts the extreme cases.</p>
-          <hr>
-        </div>
-        <div class="w3-third w3-container">
-          <a href="https://link.springer.com/chapter/10.1007/978-3-030-89820-5_21"><img src="https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-030-89820-5_21/MediaObjects/523088_1_En_21_Fig5_HTML.png?as=webp" style="width:100%"></a>
-          <p>
-          <a href="https://link.springer.com/chapter/10.1007/978-3-030-89820-5_21"><img src="https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-030-89820-5_21/MediaObjects/523088_1_En_21_Fig1_HTML.png" style="width:100%"></a>
-          <p>
-          <a href="https://link.springer.com/chapter/10.1007/978-3-030-89820-5_21"><img src="https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-030-89820-5_21/MediaObjects/523088_1_En_21_Fig3_HTML.png?as=webp" style="width:100%"></a>
-        </div>
       </div>
 
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file-text-o fa-fw w3-margin-right w3-xxlarge w3-text-blue-grey"></i>Publications</h2>
-        <ol>	
-		<li>
-		  "Multitask Analysis of Spanish Travel Reviews: Sentiment, Destination, and Topic Classification with RoBERTa and LLaMA Ensembles". <b>Minutti-Martinez, C.</b>, Escalante-Ramírez, B., Olveres-Montiel, J. <br> CEUR Workshop Proceedings, (2025). 
-		</li>				
-		<li>
-		  "Cyclo-VGAE: Dual-Mechanism Approach to GNN Robustness Against Noisy Labels". <b>Minutti-Martinez, C.</b>, Escalante-Ramírez, B., Olveres-Montiel, J. <br> International Joint Conference on Neural Networks (IJCNN), Rome, Italy, IEEE, pp. 1-8, (2025). doi: https://doi.org/10.1109/IJCNN64981.2025.11227407.
-		</li>		
-		<li>
-		  "Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations: A Multifaceted Analysis". <b>Minutti-Martinez, C.</b>, Mata-Rivera, M. F., Arellano-Vazquez, M., Escalante-Ramírez, B., & Olveres, J.  <br><i>Mathematical and Computational Applications</i>, 30(4), 69. (2025). https://doi.org/10.3390/mca30040069 
-		</li>				
-		<li>
-		  "Dynamic Wind Condition Detection in Baja California, Mexico: A Machine Learning Approach for Improved Wind Management". Arellano-Vazquez, M., Zamora-Machado, M., Robles Pérez, M., <b>Minutti-Martinez, C.</b>, Jaramillo Salgado, M. O. <br><i>IEEE Latin America Transactions.</i>, 23(5), 387–396. (2025).
-		</li>				
-		<li>
-		  "Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations in Mexico City: A Multifaceted Analysis". <b>Minutti-Martinez, C.</b>, Mata-Rivera, M., Arellano-Vazquez, M., Escalante-Ramírez, B., Olveres, J. <br><i>Lecture Notes in Computer Science. Springer, Cham.</i>. (2025).
-		</li>				
-		<li>
-		  "Unraveling the Complex Interplay Between Socioeconomic Status, Air Pollution, and Heart Disease Hospitalizations in an Urban Population". <b>Minutti, C.</b> <br><i>International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE)</i>. (2024).
-		</li>				
-		<li>
-		  "A comprehensive methodology for performing Continued Process Verification". Carrillo, R., <b>Minutti, C.</b>, Lagunes, P. <br><i>IEEE 37th International Symposium on Computer-Based Medical Systems</i>. (2024).
-		</li>		
-		<li>
-		  "Enhancing interpretability and bias control in deep learning models for medical image analysis using generative AI". <b>Minutti-Martinez, C.</b>, Escalante-Ramírez, B., Olveres-Montiel, J. <br><i>Proceedings of SPIE</i>. (2024).
-		</li>		
-		<li>
-		  "PumaMedNet-CXR: An Explainable Generative Artificial Intelligence for the Analysis and Classification of Chest X-Ray Images". <b>Minutti-Martinez, C.</b>, Escalante-Ramírez, B., Olveres-Montiel, J. <br><i>Lecture Notes in Computer Science</i>. (2023).
-		</li>
-		<li>
-		  "Exploring nonlinear effects of air pollution on hospital admissions by disease using gradient boosting machines". <b>Minutti-Martinez, C.</b>, Galindo, A., Valdez-Garduño, L. F., Mata-Rivera, M. F. <br><i>19th International Conference on Electrical Engineering, Computing Science and Automatic Control. IEEE.</i>. (2022).
-		</li>
-		<li>
-		  "A Hybrid Model for the Prediction of Air Pollutants Concentration, Based on Statistical and Machine Learning Techniques". <b>Minutti-Martinez, C.</b>, Arellano-Vázquez, M., Zamora-Machado, M. <br><i>Lecture Notes in Computer Science</i>. (2021).
-		</li>
-		<li>
-		  "A New Inverse Modeling Approach for Hydraulic Conductivity Estimation Based on Gaussian Mixtures". <b>Minutti, C.</b>, Illman, W. A., Gomez, S. <br><i>Water Resources Research</i>. (2020).
-		</li>
-		<li>
-		  "Automated characterization and prediction of wind conditions using gaussian mixtures". Arellano-Vázquez, M., <b>Minutti-Martinez, C.</b>, Zamora-Machado, M. <br><i>Lecture Notes in Computer Science</i>. (2020).
-		</li>
-		<li>
-		  "An algorithm for hydraulic tomography based on a mixture model". <b>Minutti, C.</b>, Illman, W. A., Gomez, S. <br><i>Lecture Notes in Computer Science</i>. (2019).
-		</li>
-		<li>
-		  "A machine-learning approach for noise reduction in parameter estimation inverse problems, applied to characterization of oil reservoirs". <b>Minutti, C.</b>, Gomez, S., Ramos, G. <br><i>Journal of Physics: Conference Series</i>. 1047 (1), 012010. (2018).
-		</li>
-		<li>
-		  "A stable computation of log‐derivatives from noisy drawdown data". Ramos, G., Carrera, J., Gómez, S., <b>Minutti, C.</b>, Camacho, R. <br><i>Water Resources Research</i> 53 (9), 7904-7916. (2017).
-		</li>
-		<li>
-		  "Robust Characterization of Naturally Fractured Carbonate Reservoirs Through Sensitivity Analysis and Noise Propagation Reduction". <b>Minutti, C.</b>, Ramos, G., Gomez, S., Camacho, R., Vázquez, M., Castillo, N. <br><i>SPE Latin America and Caribbean Heavy and Extra Heavy Oil Conference</i>. (2016).
-		</li>
-		<li>
-		  "Well-Testing Characterization of Heavy-Oil Naturally Fractured Vuggy Reservoirs". Camacho Velazquez, R., Gomez, S., Vasquez-Cruz, M. A., Fuenleal, N. A., Castillo, T., Ramos, G., <b>Minutti, C.</b>, Mesejo, A., Fuentes-Cruz, G. <br><i>SPE Heavy and Extra Heavy Oil Conference: Latin America</i> (2014).
-		</li>
-		<li>
-		  "Avances en la caracterización integral de un yacimiento naturalmente fracturado vugular, el caso Ayatsil-Tekel". Camacho Velázquez, R., Fuenleal Martínez, N., Castillo Rodríguez, T., Gómez Gómez, S., Ramos, G., <b>Minutti Martínez, C.</b>, Vásquez Cruz, M., Mesejo, A., Fuentes Cruz, G. <br><i>Ingeniería petrolera</i>. 54 (10), 583-601 (2014).
-		</li>
-        </ol>
-      </div>
-      <br>
+      <!-- Selected Publications -->
+      <div class="section-card">
+        <div class="section-header">
+          <i class="fa fa-star-o"></i>
+          <h2>Selected Publications</h2>
+        </div>
 
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-bar-chart-o fa-fw w3-margin-right w3-xxlarge w3-text-blue-grey"></i>International Conferences</h2>
-        <ol>
-          <li>
-            "Cyclo-VGAE: Dual-Mechanism Approach to GNN Robustness Against Noisy Labels". <br><i>International Joint Conference on Neural Networks 2025. Rome, Italy</i>. (2025).
-          </li>				
-          <li>
-            "Unraveling the Complex Interplay Between Socioeconomic Status, Air Pollution, and Heart Disease Hospitalizations in an Urban Population". <br><i>2024 21st International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE). Cinvestav
-Mexico City</i>. (2024).
-          </li>				
-          <li>
-            "Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations in Mexico City: A Multifaceted Analysis". <br><i>6th Workshop on New Trends in Computational Intelligence and Applications. INAOE, Puebla, Mexico</i>. (2024).
-          </li>		
-          <li>
-            "Unraveling the Complex Interplay Between Socioeconomic Status, Air Pollution, and Heart Disease Hospitalizations in an Urban Population". <i>21st International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE). Mexico City, Mexico.</i> (2024).
-          </li>
-          <li>
-            "Enhancing interpretability and bias control in deep learning models for medical image analysis using generative AI". <br><i>SPIE Photonics Europe 2024. Strasbourg, France. 7-11 April.</i> (2024).
-          </li>
-          <li>
-			  "PumaMedNet‐CXR: An Explainable Denoising Autoencoder for the Analysis and Classification of Chest X‐Ray Images". <br><i>22th Mexican International Conference on Artificial Intelligence, 13-18 November, IIMAS-UNAM (UAEY) - UADY, Mérida, Yucatán, México.</i> (2023).
-          </li>
-          <li>
-			  "Exploring nonlinear effects of air pollution on hospital admissions by disease using gradient boosting machines". <br><i>19th International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE). Mexico City, Mexico.</i> (2022).
-          </li>
-          <li>
-			  "Automated Prediction of Air Pollutant Concentrations in Mexico City, Using Artificial Intelligence Methods" <br><i>20th Mexican International Conference on Artificial Intelligence. 25-30 October, Mexico City, Mexico.</i> (2021).
-          </li>
-          <li>
-			  "An algorithm to perform hydraulic tomography based on a mixture model". <br><i>International Conference on Computational Science. 12-14 June, Faro, Algarve, Portugal.</i> (2019).
-          </li>
-          <li>
-			  "An approach for noise reduction in inverse problems, applied to well-test data". <br><i>9th International Conference on Inverse Problems in Engineering. May 23-26, University of Waterloo, ON, Canada.</i> (2017).
-          </li>
-          <li>
-			  "A Methodology for the Characterization of Naturally Fractured-Vuggy Carbonate Reservoirs Using Statistical Methods". <br><i>Eighth International Conference "Inverse Problems: Modeling and Simulation". May 23-28, Ölüdeniz, Fethiye, Turkey</i>. (2016).
-          </li>
-        </ol>
+        <div class="pub-featured">
+          <div class="pub-featured-text">
+            <h5>Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations: A Multifaceted Analysis</h5>
+            <h6>Mathematical and Computational Applications</h6>
+            <p>This study investigates the combined effects of air pollution and socioeconomic factors on disease incidence and severity, addressing gaps in prior research that often analyzed these factors separately. Using data from 86,170 hospitalizations in Mexico City (2015&ndash;2019), we employed multivariate statistical methods (PCA and factor analysis) to construct composite measures of social and economic status and grouped correlated pollutants. Logistic and negative binomial regression models assessed their associations with hospitalization risk and frequency. Results showed that economic status significantly influenced diabetes complications, while social factors affected prenatal care-related diseases and hypertension. The <span style="white-space: nowrap;">PM<sub>10</sub>&ndash;PM<sub>2.5</sub>&ndash;CO</span> group increased the incidence of asthma, influenza, and epilepsy, whereas <span style="white-space: nowrap;">NO<sub>2</sub>&ndash;NO<sub>x</sub></span> impacted diabetes complication severity and influenza. Nonlinear effects and interactions (e.g., age and weight) were also identified, highlighting the need for integrated analyses in environmental health research.</p>
+          </div>
+          <div class="pub-featured-images">
+            <a href="https://www.mdpi.com/2297-8747/30/4/69"><img src="files/diabetes.png" alt="Diabetes hospitalization analysis"></a>
+            <a href="https://www.mdpi.com/2297-8747/30/4/69"><img src="files/pca.png" alt="PCA analysis of air pollution and socioeconomic factors"></a>
+          </div>
+        </div>
+
+        <div class="pub-featured">
+          <div class="pub-featured-text">
+            <h5>Enhancing interpretability and bias control in deep learning models for medical image analysis using generative AI</h5>
+            <h6>Proceedings of SPIE</h6>
+            <p>Explainability and bias mitigation are crucial aspects of deep learning (DL) models for medical image analysis. Generative AI, particularly autoencoders, can enhance explainability by analyzing the latent space to identify and control variables that contribute to biases. By manipulating the latent space, biases can be mitigated in the classification layer. Furthermore, the latent space can be visualized to provide a more intuitive understanding of the model's decision-making process. In our work, we demonstrate how the proposed approach enhances the explainability of the decision-making process, surpassing the capabilities of traditional methods like Grad-Cam. Our approach effectively identifies and mitigates biases in a straightforward manner, without necessitating model retraining or dataset modification, showing how Generative AI has the potential to play a pivotal role in addressing explainability and bias mitigation challenges, enhancing the trustworthiness and clinical utility of DL-powered medical image analysis tools.</p>
+          </div>
+          <div class="pub-featured-images">
+            <a href="https://doi.org/10.1117/12.3022263"><img src="files/brain_vae_1.png" alt="Brain VAE analysis visualization"></a>
+            <a href="https://doi.org/10.1117/12.3022263"><img src="files/brain_vae_2.png" alt="Brain VAE latent space visualization"></a>
+          </div>
+        </div>
+
+        <div class="pub-featured">
+          <div class="pub-featured-text">
+            <h5>PumaMedNet-CXR: An Explainable Generative Artificial Intelligence for the Analysis and Classification of Chest X-Ray Images</h5>
+            <h6>Lecture Notes in Computer Science</h6>
+            <p>In this paper, we introduce PumaMedNet-CXR, a generative AI designed for medical image classification, with a specific emphasis on Chest X-ray (CXR) images. The model effectively corrects common defects in CXR images, offers improved explainability, enabling a deeper understanding of its decision-making process. By analyzing its latent space, we can identify and mitigate biases, ensuring a more reliable and transparent model. Notably, PumaMedNet-CXR achieves comparable performance to larger pre-trained models through transfer learning, making it a promising tool for medical image analysis. The model's highly efficient autoencoder-based architecture, along with its explainability and bias mitigation capabilities, contribute to its significant potential in advancing medical image understanding and analysis.</p>
+          </div>
+          <div class="pub-featured-images">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-47640-2_18"><img src="https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-031-47640-2_18/MediaObjects/556477_1_En_18_Fig1_HTML.png" alt="PumaMedNet-CXR architecture"></a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-47640-2_18"><img src="https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-031-47640-2_18/MediaObjects/556477_1_En_18_Fig6_HTML.png" alt="PumaMedNet-CXR results"></a>
+          </div>
+        </div>
+
+        <div class="pub-featured">
+          <div class="pub-featured-text">
+            <h5>Exploring nonlinear effects of air pollution on hospital admissions by disease using gradient boosting machines</h5>
+            <h6>IEEE</h6>
+            <p>Air pollution has been linked to premature mortality and reduced life expectancy, with acute and chronic effects on human health. These effects can be difficult to measure because of possible interactions and nonlinear relationships with other variables such as age, weight, sex, and socioeconomic status. Multi-dimensional relationships are difficult to model using conventional statistical methods. However, modern machine learning techniques have been quite successful in this domain. In this study, gradient boosting regression trees are used to predict the severity/mortality of the leading causes of hospitalization in Mexico City for 91,964 patients during the years 2015&ndash;2020 to measure the impact due to different air pollutants. The results show multiple nonlinear relationships and a significant effect of air pollutants on some of the most prevalent diseases.</p>
+          </div>
+          <div class="pub-featured-images">
+            <a href="https://doi.org/10.1109/CCE56709.2022.9976027"><img src="files/minut4-p6-minut-large.gif" alt="Nonlinear effects of air pollution visualization"></a>
+            <a href="https://doi.org/10.1109/CCE56709.2022.9976027"><img src="files/minut5-p6-minut-large.gif" alt="Gradient boosting results for air pollution"></a>
+          </div>
+        </div>
+
+        <div class="pub-featured">
+          <div class="pub-featured-text">
+            <h5>A Hybrid Model for the Prediction of Air Pollutants Concentration, Based on Statistical and Machine Learning Techniques</h5>
+            <h6>Lecture Notes in Computer Science</h6>
+            <p>In large cities, the health of the inhabitants and the concentrations of particles smaller than 10 and 2.5 &mu;m as well as ozone are related, making their prediction useful for the government and citizens. Mexico City has an air quality forecast system, which presents a forecast by pollutant at hourly and geographic zone level, but is only valid for the next 24 h.</p>
+            <p>To generate predictions for a longer time period, sophisticated methods need to be used, but highly automated techniques, such as deep learning, require a large amount of data, which are not available for this problem. Therefore, a set of predictor variables is created to feed and test different Machine Learning (ML) methods, and determine which features of these methods are essential for the prediction of different pollutant concentrations, to develop a hybrid ad-hoc model that includes ML features, but allowing a level of explainability, unlike what would occur with methods such as neural networks.</p>
+            <p>In this work we present a hybrid prediction model using different statistical methods and ML techniques, which allow estimating the concentration of the three main pollutants in the air of Mexico City two weeks ahead. The results of the different models are presented and compared, with the hybrid model being the one that best predicts the extreme cases.</p>
+          </div>
+          <div class="pub-featured-images">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-89820-5_21"><img src="https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-030-89820-5_21/MediaObjects/523088_1_En_21_Fig5_HTML.png?as=webp" alt="Air pollutant prediction model results"></a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-89820-5_21"><img src="https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-030-89820-5_21/MediaObjects/523088_1_En_21_Fig1_HTML.png" alt="Hybrid model architecture"></a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-89820-5_21"><img src="https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-3-030-89820-5_21/MediaObjects/523088_1_En_21_Fig3_HTML.png?as=webp" alt="Pollutant concentration predictions"></a>
+          </div>
+        </div>
       </div>
-      <br>
-      
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-blue-grey"></i>Awards and distinctions</h2>
-        <ul>
-          <li>           
-	   	2nd Place in the Natural Language Processing (NLP) competition "Researching Sentiment Evaluation in Text for Mexican Magical Towns" (Rest-Mex 2025) at the Iberian Languages Evaluation Forum (IberLEF) 2025.
-          </li>				
-          <li>           
-	   	1st Place in the "Learning with Noisy Graph Labels Competition" at the "International Joint Conference on Neural Networks 2025" from The International Neural Network Society (INNS).
-          </li>		
-          <li>
-           	3rd Place in the research category of the AFIRME-FUNAM award, which has the purpose of promoting and recognizing scientific research in the areas of Physical-Mathematical Sciences and Engineering, through the National University of Mexico and AFIRME Financial Group. (2024).
-          </li>
-          <li>
-           	INFOTEC-HUAWEI AI 1000 Talent Development Program Awardee. Out of 1000 participants, the AI 1000 program rewards the top 100 Huawei HCIA-AI certification results with a 2-week AI training program at Huawei's facilities in Hangzhou, China. (2024).
-          </li>
-	  <li>
-            	1st Place in the the Best Paper Award at the 22nd Mexican International Conference on Artificial Intelligence by the The Mexican Society for Artificial Intelligence. (2023).
-          </li>
-          <li>
-			  Member of the National System of Researchers (SNI). Interdisciplinary Area. (2023).
-          </li>
-          <li>
-			  Ranked in the top 3% (Silver medal) of the Data science / AI competition "Google Smartphone Decimeter Challenge", with 810 teams and 985 competitors from around the world. (2021).
-          </li>
-          <li>
-			  Scholarship recipient of the Emerging Leaders in the Americas Program for a short-term exchange opportunities for study or research, in Canada. (2017).
-          </li>
-          <li>
-			  Second place for the best master's thesis in statistics. National prize by the Mexican Association of Statistics (AME), The Francisco Aranda-Ordaz Prize. (2016).
-          </li>
-        </ul>
+
+      <!-- Publications -->
+      <div class="section-card">
+        <div class="section-header">
+          <i class="fa fa-file-text-o"></i>
+          <h2>Publications</h2>
+        </div>
+        <div class="pub-list">
+          <ol>
+            <li class="pub-entry">
+              "Multitask Analysis of Spanish Travel Reviews: Sentiment, Destination, and Topic Classification with RoBERTa and LLaMA Ensembles". <b>Minutti-Martinez, C.</b>, Escalante-Ram&iacute;rez, B., Olveres-Montiel, J. <br>CEUR Workshop Proceedings, (2025).
+            </li>
+            <li class="pub-entry">
+              "Cyclo-VGAE: Dual-Mechanism Approach to GNN Robustness Against Noisy Labels". <b>Minutti-Martinez, C.</b>, Escalante-Ram&iacute;rez, B., Olveres-Montiel, J. <br>International Joint Conference on Neural Networks (IJCNN), Rome, Italy, IEEE, pp. 1-8, (2025). doi: <a href="https://doi.org/10.1109/IJCNN64981.2025.11227407">10.1109/IJCNN64981.2025.11227407</a>.
+            </li>
+            <li class="pub-entry">
+              "Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations: A Multifaceted Analysis". <b>Minutti-Martinez, C.</b>, Mata-Rivera, M. F., Arellano-Vazquez, M., Escalante-Ram&iacute;rez, B., &amp; Olveres, J. <br><i>Mathematical and Computational Applications</i>, 30(4), 69. (2025). <a href="https://doi.org/10.3390/mca30040069">doi:10.3390/mca30040069</a>
+            </li>
+            <li class="pub-entry">
+              "Dynamic Wind Condition Detection in Baja California, Mexico: A Machine Learning Approach for Improved Wind Management". Arellano-Vazquez, M., Zamora-Machado, M., Robles P&eacute;rez, M., <b>Minutti-Martinez, C.</b>, Jaramillo Salgado, M. O. <br><i>IEEE Latin America Transactions.</i>, 23(5), 387&ndash;396. (2025).
+            </li>
+            <li class="pub-entry">
+              "Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations in Mexico City: A Multifaceted Analysis". <b>Minutti-Martinez, C.</b>, Mata-Rivera, M., Arellano-Vazquez, M., Escalante-Ram&iacute;rez, B., Olveres, J. <br><i>Lecture Notes in Computer Science. Springer, Cham.</i> (2025).
+            </li>
+            <li class="pub-entry">
+              "Unraveling the Complex Interplay Between Socioeconomic Status, Air Pollution, and Heart Disease Hospitalizations in an Urban Population". <b>Minutti, C.</b> <br><i>International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE)</i>. (2024).
+            </li>
+            <li class="pub-entry">
+              "A comprehensive methodology for performing Continued Process Verification". Carrillo, R., <b>Minutti, C.</b>, Lagunes, P. <br><i>IEEE 37th International Symposium on Computer-Based Medical Systems</i>. (2024).
+            </li>
+            <li class="pub-entry">
+              "Enhancing interpretability and bias control in deep learning models for medical image analysis using generative AI". <b>Minutti-Martinez, C.</b>, Escalante-Ram&iacute;rez, B., Olveres-Montiel, J. <br><i>Proceedings of SPIE</i>. (2024).
+            </li>
+            <li class="pub-entry">
+              "PumaMedNet-CXR: An Explainable Generative Artificial Intelligence for the Analysis and Classification of Chest X-Ray Images". <b>Minutti-Martinez, C.</b>, Escalante-Ram&iacute;rez, B., Olveres-Montiel, J. <br><i>Lecture Notes in Computer Science</i>. (2023).
+            </li>
+            <li class="pub-entry">
+              "Exploring nonlinear effects of air pollution on hospital admissions by disease using gradient boosting machines". <b>Minutti-Martinez, C.</b>, Galindo, A., Valdez-Gardu&ntilde;o, L. F., Mata-Rivera, M. F. <br><i>19th International Conference on Electrical Engineering, Computing Science and Automatic Control. IEEE.</i> (2022).
+            </li>
+            <li class="pub-entry">
+              "A Hybrid Model for the Prediction of Air Pollutants Concentration, Based on Statistical and Machine Learning Techniques". <b>Minutti-Martinez, C.</b>, Arellano-V&aacute;zquez, M., Zamora-Machado, M. <br><i>Lecture Notes in Computer Science</i>. (2021).
+            </li>
+            <li class="pub-entry">
+              "A New Inverse Modeling Approach for Hydraulic Conductivity Estimation Based on Gaussian Mixtures". <b>Minutti, C.</b>, Illman, W. A., Gomez, S. <br><i>Water Resources Research</i>. (2020).
+            </li>
+            <li class="pub-entry">
+              "Automated characterization and prediction of wind conditions using gaussian mixtures". Arellano-V&aacute;zquez, M., <b>Minutti-Martinez, C.</b>, Zamora-Machado, M. <br><i>Lecture Notes in Computer Science</i>. (2020).
+            </li>
+            <li class="pub-entry">
+              "An algorithm for hydraulic tomography based on a mixture model". <b>Minutti, C.</b>, Illman, W. A., Gomez, S. <br><i>Lecture Notes in Computer Science</i>. (2019).
+            </li>
+            <li class="pub-entry">
+              "A machine-learning approach for noise reduction in parameter estimation inverse problems, applied to characterization of oil reservoirs". <b>Minutti, C.</b>, Gomez, S., Ramos, G. <br><i>Journal of Physics: Conference Series</i>. 1047 (1), 012010. (2018).
+            </li>
+            <li class="pub-entry">
+              "A stable computation of log-derivatives from noisy drawdown data". Ramos, G., Carrera, J., G&oacute;mez, S., <b>Minutti, C.</b>, Camacho, R. <br><i>Water Resources Research</i> 53 (9), 7904-7916. (2017).
+            </li>
+            <li class="pub-entry">
+              "Robust Characterization of Naturally Fractured Carbonate Reservoirs Through Sensitivity Analysis and Noise Propagation Reduction". <b>Minutti, C.</b>, Ramos, G., Gomez, S., Camacho, R., V&aacute;zquez, M., Castillo, N. <br><i>SPE Latin America and Caribbean Heavy and Extra Heavy Oil Conference</i>. (2016).
+            </li>
+            <li class="pub-entry">
+              "Well-Testing Characterization of Heavy-Oil Naturally Fractured Vuggy Reservoirs". Camacho Velazquez, R., Gomez, S., Vasquez-Cruz, M. A., Fuenleal, N. A., Castillo, T., Ramos, G., <b>Minutti, C.</b>, Mesejo, A., Fuentes-Cruz, G. <br><i>SPE Heavy and Extra Heavy Oil Conference: Latin America</i> (2014).
+            </li>
+            <li class="pub-entry">
+              "Avances en la caracterizaci&oacute;n integral de un yacimiento naturalmente fracturado vugular, el caso Ayatsil-Tekel". Camacho Vel&aacute;zquez, R., Fuenleal Mart&iacute;nez, N., Castillo Rodr&iacute;guez, T., G&oacute;mez G&oacute;mez, S., Ramos, G., <b>Minutti Mart&iacute;nez, C.</b>, V&aacute;squez Cruz, M., Mesejo, A., Fuentes Cruz, G. <br><i>Ingenier&iacute;a petrolera</i>. 54 (10), 583-601 (2014).
+            </li>
+          </ol>
+        </div>
       </div>
-      <br>
-      
+
+      <!-- International Conferences -->
+      <div class="section-card">
+        <div class="section-header">
+          <i class="fa fa-bar-chart"></i>
+          <h2>International Conferences</h2>
+        </div>
+        <div class="pub-list">
+          <ol>
+            <li class="pub-entry">
+              "Cyclo-VGAE: Dual-Mechanism Approach to GNN Robustness Against Noisy Labels". <br><i>International Joint Conference on Neural Networks 2025. Rome, Italy</i>. (2025).
+            </li>
+            <li class="pub-entry">
+              "Unraveling the Complex Interplay Between Socioeconomic Status, Air Pollution, and Heart Disease Hospitalizations in an Urban Population". <br><i>2024 21st International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE). Cinvestav, Mexico City</i>. (2024).
+            </li>
+            <li class="pub-entry">
+              "Air Pollution, Socioeconomic Status, and Avoidable Hospitalizations in Mexico City: A Multifaceted Analysis". <br><i>6th Workshop on New Trends in Computational Intelligence and Applications. INAOE, Puebla, Mexico</i>. (2024).
+            </li>
+            <li class="pub-entry">
+              "Unraveling the Complex Interplay Between Socioeconomic Status, Air Pollution, and Heart Disease Hospitalizations in an Urban Population". <br><i>21st International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE). Mexico City, Mexico.</i> (2024).
+            </li>
+            <li class="pub-entry">
+              "Enhancing interpretability and bias control in deep learning models for medical image analysis using generative AI". <br><i>SPIE Photonics Europe 2024. Strasbourg, France. 7-11 April.</i> (2024).
+            </li>
+            <li class="pub-entry">
+              "PumaMedNet-CXR: An Explainable Denoising Autoencoder for the Analysis and Classification of Chest X-Ray Images". <br><i>22nd Mexican International Conference on Artificial Intelligence, 13-18 November, IIMAS-UNAM (UAEY) - UADY, M&eacute;rida, Yucat&aacute;n, M&eacute;xico.</i> (2023).
+            </li>
+            <li class="pub-entry">
+              "Exploring nonlinear effects of air pollution on hospital admissions by disease using gradient boosting machines". <br><i>19th International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE). Mexico City, Mexico.</i> (2022).
+            </li>
+            <li class="pub-entry">
+              "Automated Prediction of Air Pollutant Concentrations in Mexico City, Using Artificial Intelligence Methods". <br><i>20th Mexican International Conference on Artificial Intelligence. 25-30 October, Mexico City, Mexico.</i> (2021).
+            </li>
+            <li class="pub-entry">
+              "An algorithm to perform hydraulic tomography based on a mixture model". <br><i>International Conference on Computational Science. 12-14 June, Faro, Algarve, Portugal.</i> (2019).
+            </li>
+            <li class="pub-entry">
+              "An approach for noise reduction in inverse problems, applied to well-test data". <br><i>9th International Conference on Inverse Problems in Engineering. May 23-26, University of Waterloo, ON, Canada.</i> (2017).
+            </li>
+            <li class="pub-entry">
+              "A Methodology for the Characterization of Naturally Fractured-Vuggy Carbonate Reservoirs Using Statistical Methods". <br><i>Eighth International Conference "Inverse Problems: Modeling and Simulation". May 23-28, &Ouml;l&uuml;deniz, Fethiye, Turkey</i>. (2016).
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Awards and Distinctions -->
+      <div class="section-card">
+        <div class="section-header">
+          <i class="fa fa-trophy"></i>
+          <h2>Awards and Distinctions</h2>
+        </div>
+        <div class="awards-list">
+          <ul>
+            <li class="award-item">
+              Top 10 in the "Accelerating Mexico with Artificial Intelligence" (Acelerando M&eacute;xico con Inteligencia Artificial) program by Intel, 2025 edition. (2025).
+            </li>
+            <li class="award-item">
+              2nd Place in the Natural Language Processing (NLP) competition "Researching Sentiment Evaluation in Text for Mexican Magical Towns" (Rest-Mex 2025) at the Iberian Languages Evaluation Forum (IberLEF) 2025.
+            </li>
+            <li class="award-item">
+              1st Place in the "Learning with Noisy Graph Labels Competition" at the International Joint Conference on Neural Networks 2025 from The International Neural Network Society (INNS).
+            </li>
+            <li class="award-item">
+              3rd Place in the research category of the AFIRME-FUNAM award, which promotes and recognizes scientific research in Physical-Mathematical Sciences and Engineering, through the National University of Mexico and AFIRME Financial Group. (2024).
+            </li>
+            <li class="award-item">
+              INFOTEC-HUAWEI AI 1000 Talent Development Program Awardee. Out of 1000 participants, the AI 1000 program rewards the top 100 Huawei HCIA-AI certification results with a 2-week AI training program at Huawei's facilities in Hangzhou, China. (2024).
+            </li>
+            <li class="award-item">
+              1st Place Best Paper Award at the 22nd Mexican International Conference on Artificial Intelligence by the Mexican Society for Artificial Intelligence. (2023).
+            </li>
+            <li class="award-item">
+              Member of the National System of Researchers (SNI). Interdisciplinary Area. (2023).
+            </li>
+            <li class="award-item">
+              Ranked in the top 3% (Silver medal) of the Data Science / AI competition "Google Smartphone Decimeter Challenge", with 810 teams and 985 competitors from around the world. (2021).
+            </li>
+            <li class="award-item">
+              Scholarship recipient of the Emerging Leaders in the Americas Program for short-term exchange opportunities for study or research, in Canada. (2017).
+            </li>
+            <li class="award-item">
+              Second place for the best master's thesis in statistics. National prize by the Mexican Association of Statistics (AME), The Francisco Aranda-Ordaz Prize. (2016).
+            </li>
+          </ul>
+        </div>
+      </div>
+
     <!-- End Right Column -->
     </div>
-    
+
   <!-- End Grid -->
   </div>
-  
-  <!-- End Page Container -->
+
+<!-- End Page Container -->
 </div>
 
-<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
-<footer class="w3-container w3-blue-gray w3-center w3-margin-top">
-  <p>Copyright © Carlos Minutti</p>
-  <p>Last updated at 09/2025.</p>
- </footer>
+<footer class="site-footer">
+  <p>Copyright &copy; Carlos Minutti</p>
+  <p>Last updated: 02/2026</p>
+  <div class="footer-links">
+    <a href="https://scholar.google.com/citations?user=wPweiiEAAAAJ" title="Google Scholar"><i class="fa fa-graduation-cap"></i></a>
+    <a href="https://www.linkedin.com/in/carlos-minutti/" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+    <a href="https://github.com/cminuttim" title="GitHub"><i class="fa fa-github"></i></a>
+    <a href="https://data-fusionlab.com" title="Consulting"><i class="fa fa-globe"></i></a>
+  </div>
+</footer>
 
 </body>
 </html>
-
-
-
-
-
-
